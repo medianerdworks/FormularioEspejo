@@ -280,17 +280,12 @@ public class Espejo extends javax.swing.JFrame {
 
     private void chk4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chk4ActionPerformed
         // TODO add your handling code here:
-        if (chk4.isSelected()) {
-            chk4Espejo.setSelected(true);
-        }
-        else {
-            chk4Espejo.setSelected(false);
-        } 
+        chk4Espejo.setSelected(chk4.isSelected());
     }//GEN-LAST:event_chk4ActionPerformed
 
     private void chk5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chk5ActionPerformed
         // TODO add your handling code here:
-        chk5Espejo.setSelected(true);
+        chk5Espejo.setSelected(chk5.isSelected());
     }//GEN-LAST:event_chk5ActionPerformed
 
     private void txtOriginalKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtOriginalKeyReleased
@@ -300,7 +295,7 @@ public class Espejo extends javax.swing.JFrame {
 
     private void chk6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chk6ActionPerformed
         // TODO add your handling code here:
-        chk6Espejo.setSelected(true);
+        chk6Espejo.setSelected(chk6.isSelected());
     }//GEN-LAST:event_chk6ActionPerformed
 
     private void cmbOriginalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbOriginalActionPerformed
